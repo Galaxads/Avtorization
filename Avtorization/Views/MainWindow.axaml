@@ -1,0 +1,77 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Avtorization.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Avtorization.Views"
+        mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720" MaxHeight="720" MaxWidth="1280" MinHeight="720" MinWidth="1280"
+        x:Class="Avtorization.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Avtorization">
+	<Grid>
+		<StackPanel>
+			<Image Source="C:\Users\prdb\source\repos\Avtorization\Avtorization\Assets\icon.png" Height="70" Width="70" ></Image>
+			<TextBlock HorizontalAlignment="Center" Margin="0,40" FontSize="20">Sign in to GitHub</TextBlock>
+		</StackPanel>
+		<StackPanel>
+			<Border Margin="120,150"
+			  
+			  Background="#d3d3d3"
+					Width="340"
+					Height="300">
+
+				<TextBlock Margin="30"
+				  FontSize="13"
+				  HorizontalAlignment="Left"
+				  Text="Username or email address"
+				   Foreground="Black">
+				</TextBlock>
+			</Border>
+		</StackPanel>
+		<StackPanel>
+			<TextBox HorizontalAlignment="Center" Margin="0,210" Width="290"></TextBox>
+		</StackPanel>
+		<StackPanel>
+			<TextBlock HorizontalAlignment="Center" Margin="0,260" Width="277">Password</TextBlock>
+		</StackPanel>
+		<StackPanel>
+			<TextBlock HorizontalAlignment="Right" Margin="0,260" Width="614"  Foreground="Blue" >Forgot password?</TextBlock>
+		</StackPanel>
+		<StackPanel>
+			<TextBox HorizontalAlignment="Center" Margin="0,300" Width="290"></TextBox>
+		</StackPanel>
+		<StackPanel>
+			<Button HorizontalAlignment="Center" Margin="0,370" Width="290" BorderThickness="10" CornerRadius="13" Background="Green"  Foreground="White"  Height="50">Sign in</Button>
+		</StackPanel>
+		
+		<StackPanel>
+			<Button HorizontalAlignment="Center"  Margin="0,480"  Width="167" Height="30" Background="Transparent" Foreground="Blue" >Sign in with a passkey</Button>
+		</StackPanel>
+		<StackPanel>
+			<TextBlock HorizontalAlignment="Center"  Margin="0,510"  Width="267" Height="30" Background="Transparent" Foreground="Black" >New to GitHub?</TextBlock>
+		</StackPanel>
+		<StackPanel>
+			<Button  Margin="605,504,605,0"  Width="150" Height="30" Background="Transparent" Foreground="Blue" >Create an account</Button>
+		</StackPanel>
+		<StackPanel>
+			<Button  Margin="405,554,605,0"  Width="150" Height="30" Background="Transparent" Foreground="Gray" >Terms</Button>
+		</StackPanel>
+		<StackPanel>
+			<Button  Margin="455,554,605,0"  Width="70" Height="30" Background="Transparent" Foreground="Gray" >Privacy</Button>
+		</StackPanel>
+		<StackPanel>
+			<Button  Margin="515,554,605,0"  Width="53" Height="30" Background="Transparent" Foreground="Gray" >Docs</Button>
+		</StackPanel>
+		<StackPanel>
+			<Button  Margin="555,554,605,0"  Width="180" Height="30" Background="Transparent" Foreground="Gray" >Contact GitHub Support</Button>
+		</StackPanel>
+		<StackPanel>
+			<Button  Margin="730,554,605,0"  Width="120" Height="30" Background="Transparent" Foreground="Gray" >Manage cookies</Button>
+		</StackPanel>
+		<StackPanel>
+			<Button  Margin="850,554,605,0"  Width="270" Height="30" Background="Transparent" Foreground="Gray" >Do not share my personal information</Button>
+		</StackPanel>
+	</Grid>
+	
+	
+</Window>
